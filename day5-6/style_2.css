@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header{
+width:200px;
+padding-top:40px;
+margin-left:10px;
+height:835px;
+color:rgb(255,255,255);
+background-color:rgb(63,142,249);
+float:left;
+text-align:center;
+}
+p,h4{
+    margin: 0;
+    padding: 0;
+}
+em{
+margin-right: 15px;
+font-style:normal;
+font-weight: 600;
+}
+.section-box p{
+display:inline-block;
+margin-right: 40px;
+}
+.section{
+margin-bottom:15px;
+}
+.main{
+margin:10px 0 20px 210px;
+padding-left:20px;
+padding-top:1px;
+}

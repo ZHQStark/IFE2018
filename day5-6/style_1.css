@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+p,h4{
+    margin: 0;
+    padding: 0;
+}
+em{
+margin-right: 15px;
+font-style:normal;
+font-weight: 600;
+}
+.section-box p{
+display:inline-block;
+margin-right: 40px;
+}
+.section{
+margin-bottom:15px;
+}

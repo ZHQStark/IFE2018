@@ -1,1 +1,80 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume</title>
+</head>
+<body>
+    <div class="header">
+        <h1>简历</h1>
+    </div>
+    <div class="main">
+        <div class="part1 part">
+            <h2>基本信息</h2>
+            <div class="section-box">
+                <p><em>姓名</em>张三</p>
+                <p><em>性别</em>男</p>
+                <p><em>应聘职位</em>Web前端工程师</p>
+            </div>
+        </div>
+        <div calss="part2 part">
+            <h2>联系方式</h2>
+            <div class="section-box">
+                <p><em>手机</em>12312341234</p>
+                <p><em>Email</em><a href="">joinefe@baidu.com</a></p>
+                <p><em>个人主页</em><a href="">GitHub</a></p>
+            </div>
+        </div>
+        <div class="part3 part">
+            <h2>能力描述</h2>
+            <div class="section-box">
+                <div class="section">
+                    <h4>技术能力</h4>
+                    <p>熟练掌握HTML,CSS,JavaScript</p>
+                </div>
+                <div class="section">
+                    <h4>综合能力</h4>
+                    <p>良好的沟通，主动积极，努力勤奋</p>
+                </div>
+            </div>
+        </div>
+        <div class="part4 part">
+            <h2>教育经历</h2>
+            <div class="section-box">
+                <div class="section">
+                    <h4>本科</h4>
+                    <p>百度前端技术学院小薇学院</p>
+                </div>
+                <div class="section">
+                    <h4>研究生</h4>
+                    <p>百度前端技术学院大斌学院</p>
+                </div>
+            </div>
+        </div>
+        <div class="part5 part">
+            <h2>项目经历</h2>
+            <div class="section-box">
+                <div class="section">
+                    <h4>小度小度</h4>
+                    <p>作为前端工程师角色参与了ABC组件的开发</p>
+                </div>
+                <div class="section">
+                    <h4>SAN Doc</h4>
+                    <p id="special">作为文档工程师参与了SAN Doc的编写</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button id="say-hello">和你打招呼</button>
+    <button id="special-hobby">点开看看我的特殊爱好</button>
+    <script>
+        document.getElementById("say-hello").onclick= function() {
+            console.log("hello!");
+            }
+        document.getElementById("special-hobby").onclick= function() {
+            document.getElementById("special").innerHTML = "看看这里是不是变了？";
+            }
+    </script>
+</body>
+</html>

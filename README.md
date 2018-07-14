@@ -13,7 +13,7 @@ style3
 ![image](https://github.com/ZHQStark/IFE2018/blob/master/img/day7-8.png)
 
 ### day9-11:
-![image](https://github.com/ZHQStark/IFE2018/blob/master/img/day9-11.png)
+![image](https://github.com/ZHQStark/IFE2018/blob/master/img/day9-11.jpg)
 
 ### day12-15:
-![image](https://github.com/ZHQStark/IFE2018/blob/master/img/day12-15.png)
+![image](https://github.com/ZHQStark/IFE2018/blob/master/img/day12-15.jpg)

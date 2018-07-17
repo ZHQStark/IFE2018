@@ -34,12 +34,10 @@
         </div>
     </div>
     <script>
-
     function getAllListItem() {
         var li = document.getElementsByTagName("li");
         return li;
     }
-
     function findAllHtmlSpanInOneSection(sectionId) {
         var section = document.getElementById(sectionId);
         var span = section.getElementsByTagName("span");
@@ -51,7 +49,6 @@
          }
         return spanList;
     }
-
     function findListItem(sectionId, spanCont) {
         // 返回某个section下，所有所包含span内容为spanCont的LI标签
         var section = document.getElementById(sectionId);
@@ -64,20 +61,18 @@
          }
         return liList;
     }
-
     function getActiveLinkContent(sectionId) {
         // 返回某个section下，class为active的链接中包含的文字内容
         var section = document.getElementById(sectionId);
-        var a1 = section.getElementsByTagName("a");
-        var a2 = section.getElementsByClassName("active");
+        var a = section.getElementsByTagName("a");
         var aList = [];
-        for (var i = 0; i < a2.length; i++) {
-           aList.push(a2[i].innerHTML);
-
+        for (var i = 0; i < a.length; i++) {
+           if(a[i].className === "active"){
+           aList.push(a[i].innerHTML);
+           }
          }
         return aList;
     }
-
     console.log(getAllListItem());
     console.log(findAllHtmlSpanInOneSection("news-normal"));
     console.log(findListItem("news-top","JS"));

@@ -1,1 +1,37 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>IFE ECMAScript</title>
+</head>
+<body>
+    <p id="date"></p>
+    <script>
+        var date = new Date();
+        var hour = date.getHours();
+        var minute = date.getMinutes();
+        var tips;
+        if(0<=hour<=4 || 19<=hour<=24){
+        tips="Good Evening.";
+        }
+        else if(5<=hour<=11){
+        tips="Good Morning.";
+        }
+        else tips="Good Afternoon.";
+        document.getElementById("date").innerHTML="现在的时间是"+hour+":"+minute+","+tips;
+
+        var str="";
+        for(var i=1;i<=100;i++){
+        if(i%3==0 || i%10==3){
+        str+="PA ";
+        }
+        else{
+        str+=i+" ";
+            }
+        if(i%10==0) str+="\n";
+        }
+        console.log(str);
+    </script>
+</body>
+</html>
